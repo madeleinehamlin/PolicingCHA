@@ -221,6 +221,16 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(image);
     }
 
+    if (record.video) {
+        var video = document.createElement('video');
+        video.src = record.video;
+        video.height = 440;
+        video.width = 520;
+        video.autoplay = true;
+        video.controls = true;
+        chapter.appendChild(video);
+    }
+
     if (record.description) {
         var story = document.createElement('p');
         story.innerHTML = record.description;
