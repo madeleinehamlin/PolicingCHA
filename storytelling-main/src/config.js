@@ -49,8 +49,8 @@ var config = {
             image: 'image3.png',
             description: 'The influx of newcomers was largely funneled into an area that became known as the “Black Belt”— a narrow 40-block-long strip on the city’s South Side.',
             location: {
-                center: [-87.61732, 41.81419],
-                zoom: 13,
+                center: [-87.60742, 41.8172],
+                zoom: 13.15,
                 pitch: 0,
                 bearing: 0
             },
@@ -64,8 +64,8 @@ var config = {
             image: 'image4.jpeg',
             description: 'The Great Migration gave rise to tensions over housing and employment that erupted into violence in the 1919 Riot. The riot set the borders of the Black Belt. Prior to the riot, the city was not yet rigidly segregated. After the riot, the boundaries between Black and white Chicago were sharply drawn and fiercely defended. Historian Adam Green has observed that police responded to the public emergency of the riot by establishing a cordon around the Black Belt—the “first citywide example of differential policing.” An emergency measure in the midst of the race war, policing as containment soon became normalized.',
             location: {
-                center: [-87.61732, 41.81419],
-                zoom: 13,
+                center: [-87.60742, 41.8172],
+                zoom: 13.15,
                 pitch: 0,
                 bearing: 0
             },
@@ -79,8 +79,8 @@ var config = {
             image: 'image5.jpg',
             description: 'Under conditions of rigid segregation, the Black Belt comprised a city-within-a-city, a site of cultural and entrepreneurial vitality. At the same time, it was a ghettoized containment zone. Although Black workers were integral to the city’s economy, they were prevented from meaningful social or economic mixing with other groups. And most residents of the Black Belt were forced to live in conditions of stark poverty, in degraded and unsafe tenements where they were exposed to environmental toxins, disease, and rodent infestations.',
             location: {
-                center: [-87.61732, 41.81419],
-                zoom: 13,
+                center: [-87.60742, 41.8172],
+                zoom: 13.15,
                 pitch: 0,
                 bearing: 0
             },
@@ -94,8 +94,8 @@ var config = {
             image: 'image6.png',
             description: 'In the 1930s, progressive housing reformers pushed to tear down the tenements and rebuild Chicago’s slum neighborhoods. Federal funding established the Chicago Housing Authority (CHA), which, like similar agencies across the nation, began a widespread construction program intended to house the city’s poor in new, modern structures where, it was believed, they would experience "social rebirth."',
             location: {
-                center: [-87.61732, 41.81419],
-                zoom: 13,
+                center: [-87.60742, 41.8172],
+                zoom: 13.15,
                 pitch: 0,
                 bearing: 0
             },
@@ -108,8 +108,8 @@ var config = {
             hidden: false,
             description: 'Elizabeth Wood, the first director of CHA, wanted to construct public housing in various neighborhoods across the city. This plan was resisted by white alderman. As a result, the bulk of high-rise public housing was constructed within the footprint of the Black Belt. Meanwhile, a federal policy known as the Neighborhood Composition Rule dictated that the population of public housing developments should match that of their surrounding neighborhoods. In the end, public housing thus reinforced rather than eased segregation.',
             location: {
-                center: [-87.61732, 41.81419],
-                zoom: 13,
+                center: [-87.60742, 41.8172],
+                zoom: 13.15,
                 pitch: 0,
                 bearing: 0
             },
@@ -123,8 +123,8 @@ var config = {
             image: 'image8.jpg',
             description: 'When early developments—such as the Airport Homes and Trumbull Park Homes—began to integrate in the late 1940s and 1950s, massive race riots broke out. CHA called in the police to quell tensions, but they proved incapable of managing the hostilities. Even after 700 police officers were stationed for months at the Trumbull Park site, the first Black family to move in gave up and moved out. Although the police were ineffective at promoting integration, these events solidified the relationship between the CHA and local police forces. Going forward, police were seen as the central tool for managing and controlling public housing residents.',
             location: {
-                center: [-87.56471, 41.70226],
-                zoom: 14,
+                center: [-87.56371, 41.70226],
+                zoom: 14.5,
                 pitch: 0,
                 bearing: 0
             },
