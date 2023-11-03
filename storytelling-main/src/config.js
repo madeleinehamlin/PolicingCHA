@@ -137,8 +137,8 @@ var config = {
             hidden: false,
             description: 'Even as restrictive covenants were struck down and residential segregation relaxed somewhat at mid-century, CHA neighborhoods became ever-more segregated and impoverished, as deindustrialization—particularly with the decline of the steel industry—took its toll in the 1960s and 1970s.',
             location: {
-                center: [-87.56691, 41.70106],
-                zoom: 16,
+                center: [-87.56585, 41.70006],
+                zoom: 16.5,
                 pitch: 70,
                 bearing: -30
             },
