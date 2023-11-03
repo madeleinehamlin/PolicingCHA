@@ -7,7 +7,9 @@ var config = {
     theme: 'light',
     use3dTerrain: false,
     auto: false,
-    title: 'Policing Chicago Public Housing',
+    title: 'POLICING CHICAGO PUBLIC HOUSING',
+    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
+    byline: 'By a Digital Storyteller',
     footer: 'Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
@@ -131,14 +133,14 @@ var config = {
         },
         {
             id: 'Section9',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             description: 'Even as restrictive covenants were struck down and residential segregation relaxed somewhat at mid-century, CHA neighborhoods became ever-more segregated and impoverished, as deindustrialization—particularly with the decline of the steel industry—took its toll in the 1960s and 1970s.',
             location: {
-                center: [-87.56471, 41.70226],
-                zoom: 14,
-                pitch: 0,
-                bearing: 0
+                center: [-87.56691, 41.70106],
+                zoom: 16,
+                pitch: 70,
+                bearing: -30
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
