@@ -50,11 +50,12 @@
             position: relative;
             z-index: 5;
         }
-        #header h1, #header h2, #header p {
+        #header h1, #header h2, #header p { 
             margin: 0;
             padding: 1.5vh 1.5vw;
             text-align: center;
         }
+
         #footer {
             width: 100%;
             min-height: 5vh;
@@ -115,6 +116,22 @@
         .step img {
             width: 100%;
         }
+
+        descr {
+            margin: 0;
+            padding: 1.5vh 1.5vw;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        credit {
+            margin: 0;
+            text-align: left;
+            font-style: italic;
+            font-size: 13px;
+        }
+
+
 
         @media (max-width: 750px) {
             .centered, .lefty, .righty, .fully {
@@ -232,8 +249,20 @@ config.chapters.forEach((record, idx) => {
     }
 
     if (record.description) {
-        var story = document.createElement('p');
+        var story = document.createElement('descr');
         story.innerHTML = record.description;
+        chapter.appendChild(story);
+    }
+
+    if (record.permissions) {
+        var story = document.createElement('credit');
+        story.innerHTML = record.permissions;
+        chapter.appendChild(story);
+    }
+
+    if (record.credit) {
+        var story = document.createElement('credit');
+        story.innerHTML = record.credit;
         chapter.appendChild(story);
     }
 
