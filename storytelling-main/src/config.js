@@ -12,6 +12,7 @@ var config = {
     chapters: [
         {
             id: 'Section1',
+            title: 'CHICAGO',
             alignment: 'right',
             hidden: false,
             image: 'images/Image1.png',
@@ -19,7 +20,7 @@ var config = {
             credit: 'Map made by Madeleine Hamlin and Maheen Khan using data from the 2020 U.S. Census',
             location: {
                 center: [-87.63726, 41.88938],
-                zoom: 12,
+                zoom: 9,
                 pitch: 0,
                 bearing: 0
             },
@@ -35,7 +36,7 @@ var config = {
             credit: "Image source: W.E.B. DuBois, The Georgia Negro Migration of Negroes, ca. 1900, Library of Congress",
             location: {
                 center: [-87.63726, 41.88938],
-                zoom: 12,
+                zoom: 11,
                 pitch: 0,
                 bearing: 0
             },
@@ -44,15 +45,16 @@ var config = {
         },
         {
             id: 'Section3',
+            title: 'THE BLACK BELT',
             alignment: 'right',
             hidden: false,
             image: 'images/Image3.webp',
             description: 'The influx of newcomers was largely funneled into an area that became known as the “Black Belt”— a narrow 40-block-long strip on the city’s South Side.<br><br>',
 			credit: "Image source: WTTW",
             location: {
-                center: [-87.63726, 41.88938],
-                zoom: 12,
-                pitch: 0,
+                center: [-87.60742, 41.8172],
+                zoom: 13.15,
+                pitch: 45,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -95,7 +97,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             image: 'images/Image6.jpg',
-            description: 'In the 1930s, progressive housing reformers pushed to tear down the tenements and rebuild Chicago’s slum neighborhoods. Federal funding established the Chicago Housing Authority (CHA), which, like similar agencies across the nation, began a widespread construction program intended to house the city’s poor in new, modern structures where, it was believed, they would experience "social rebirth."<br><br>',
+            description: 'In the 1930s, progressive housing reformers pushed to tear down the tenements and rebuild Chicago’s slum neighborhoods. Federal funding established the Chicago Housing Authority (CHA), which, like similar agencies across the nation, began a widespread construction program intended to house the city’s poor in new, modern structures where, it was believed, they would experience "social rebirth." The buildings constructed during that time are shown on this map in red.<br><br>',
             credit: "Image source: Chicago History Museum, ICHi-035845; Clarence W. Hines, photographer",
             location: {
                 center: [-87.60742, 41.8172],
@@ -122,6 +124,7 @@ var config = {
         },
         {
             id: 'Section8',
+            title: 'TRUMBULL PARK HOMES',
             alignment: 'left',
             hidden: false,
             image: 'images/Image8.jpg',
@@ -152,6 +155,7 @@ var config = {
         },
         {
             id: 'Section10',
+            title: 'STATEWAY GARDENS',
             alignment: 'center',
             hidden: false,
             description: 'As the local economy collapsed, the informal economy—the economy of hustle, including but not limited to the drug trade—grew. Fueled by media reports, CHA developments became known as sites of gang and drug activity. Open-air drug markets served a broad cross-section of customers. In effect, CHA developments increasingly operated as vice zones where illicit activities could take place without disturbing the regular commerce or tourism that drove the city’s mainstream economic engine.',
@@ -166,6 +170,7 @@ var config = {
         },
         {
             id: 'Section11',
+            title: 'CABRINI-GREEN',
             alignment: 'right',
             hidden: false,
             description: 'Like many other Black neighborhoods, CHA developments were simultaneously over- and under-policed. By the 1980s, the Chicago Police Department (CPD) had established specific beats to patrol public housing, as well as tactics such as “vertical patrols,” in which groups of police officers would walk floor-to-floor in the high-rises. Officers were supported by pervasive surveillance technologies, including CCTV cameras and hidden wires, making CHA developments among the most heavily surveilled sites in the city. Rather than provide social services to alleviate conditions of extreme poverty, policing of crime became the primary vehicle for exercising social control. At the same time, residents complained that officers often did not respond to calls when needed and were ineffective at stopping or solving crimes. Many complained of regular disrespect, abuse, and violence by officers.',
@@ -183,7 +188,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             image: 'images/Image12.png',
-            description: 'In the 1990s, in part in response to complaints that the CPD was failing to adequately police public housing, the it was joined by a new force: the Chicago Housing Authority Police. Building an in-house police force expanded CHA’s law enforcement function, making it both landlord and police. CHA Police officers—numbering about 500 at the force’s height—had full powers of arrest in CHA developments and worked out of sub-stations within several of the complexes, complete with lock-up facilities. Together, CPD and the CHA police officers conducted unconstitutional raids of public housing buildings, ransacking apartments before dawn. In short, the CHA Police force drained federal monies otherwise earmarked for building maintenance, while making public housing into an ever-more prison-like space—one where all residents were treated as criminals and presumed guilty until proven innocent.<br><br>',
+            description: 'In the 1990s, partially in response to complaints that the CPD was failing to adequately police public housing, the it was joined by a new force: the Chicago Housing Authority Police. Building an in-house police force expanded CHA’s law enforcement function, making it both landlord and police. CHA Police officers—numbering about 500 at the force’s height—had full powers of arrest in CHA developments and worked out of sub-stations within several of the complexes, complete with lock-up facilities. Together, CPD and the CHA police officers conducted unconstitutional raids of public housing buildings, ransacking apartments before dawn. In short, the CHA Police force drained federal monies otherwise earmarked for building maintenance, while making public housing into an ever-more prison-like space—one where all residents were treated as criminals and presumed guilty until proven innocent.<br><br>',
             credit: "Photo (c) Patricia Evans",
             location: {
                 center: [-87.64092, 41.90058],
@@ -225,14 +230,15 @@ var config = {
         },
         {
             id: 'Section15',
+            title: 'STATEWAY GARDENS',
             alignment: 'right',
             hidden: false,
             image: 'images/image15.png',
             description: 'Long before the Plan for Transformation was announced, it was clear to residents that demolition was coming. CHA ceased turning over vacant units, slowing shutting down entire floors and then entire buildings. Thus, the resident population began to decline, despite the massive demand for housing as reflected in the city’s decades-long public housing waitlist. This artificial production of vacancy was used by CHA as a rationale for reducing the number of units it was responsible for replacing—from 42,000 units at CHA’s height, to the 25,000 units that were promised in the Plan. Some high-rises became de facto homeless shelters, as homeless families squatted in vacant units until evicted—a clear reflection of human need that was being unaddressed.<br><br>',
             credit: "Photo (c) Patricia Evans",
             location: {
-                center: [-87.65909, 41.86522],
-                zoom: 14.5,
+                center: [-87.62610, 41.80931],
+                zoom: 14,
                 pitch: 0,
                 bearing: 0
             },
@@ -241,6 +247,7 @@ var config = {
         },
         {
             id: 'Section16',
+            title: 'IDA B. WELLS HOMES',
             alignment: 'center',
             hidden: false,
             image: 'images/image16.jpeg',
@@ -270,10 +277,11 @@ var config = {
         },
         {
             id: 'Section18',
+            title: 'CABRINI-GREEN',
             alignment: 'center',
             hidden: false,
             image: 'images/image18.jpg',
-            description: 'Judged on its own terms, the Plan for Transformation did not achieve its stated goals. It is yet to produce the total number of replacement units CHA committed to produce. It has not resulted in thriving mixed income communities. In the course of forced relocation, the agency lost track of an unknown but substantial number of tenants. Today, fewer than 7,000 units of traditional public housing remain, while some 44,000 people are on the CHA waitlist for public housing and another 35,000 people are on the voucher waitlist. Large expanses of land that used to house those in need stand vacant in the central city; others, such as the former site of Cabrini Green, have been gentrified. And, the CHA has, in effect, become a commercial real estate broker for big box stores and sports facilities, including the XS Tennis Village at the site of the Robert Taylor Homes, Mariano’s at the site of the Ida B. Wells Homes, Target at the site of the Cabrini Green Homes, and a planned training facility for the Chicago Fire professional soccer team on the site of the ABLA Homes.<br><br>', 
+            description: 'Judged on its own terms, the Plan for Transformation did not achieve its stated goals. It is yet to produce the total number of replacement units CHA committed to produce. It has not resulted in thriving mixed-income communities. In the course of forced relocation, the agency lost track of an unknown but substantial number of tenants. Today, fewer than 7,000 units of traditional public housing remain, while some 44,000 people are on the CHA waitlist for public housing and another 35,000 people are on the voucher waitlist. Large expanses of land that used to house those in need stand vacant in the central city; others, such as the former site of Cabrini Green, have been gentrified. And, the CHA has, in effect, become a commercial real estate broker for big box stores and sports facilities, including the XS Tennis Village at the site of the Robert Taylor Homes, Mariano’s at the site of the Ida B. Wells Homes, Target at the site of the Cabrini Green Homes, and a planned training facility for the Chicago Fire professional soccer team on the site of the ABLA Homes.<br><br>', 
             credit: "Photo (c) Patricia Evans",
             location: {
                 center: [-87.64986, 41.86878],
@@ -286,10 +294,11 @@ var config = {
         },
         {
             id: 'Section19',
+            title: 'STATEWAY GARDENS',
             alignment: 'center',
             hidden: false,
             image: 'images/image19.png',
-            description: 'There has been, however, one way in which the Plan deserves to be described as transformative. Demolition and forced relocation have effectively disappeared people, places, and issues. The Plan has also remapped our moral imaginations, shaping what we can see and what is rendered invisible. The upshot is that we are yet to reckon with this history and its implications for the future. Photo copyright Patricia Evans.<br><br>', 
+            description: 'There has been, however, one way in which the Plan deserves to be described as transformative. Demolition and forced relocation have effectively disappeared people, places, and issues. The Plan has also remapped our moral imaginations, shaping what we can see and what is rendered invisible. The upshot is that we are yet to reckon with this history and its implications for the future.<br><br>', 
             credit: "Photo (c) Patricia Evans",
             location: {
                 center: [-87.62610, 41.80931],
@@ -304,7 +313,7 @@ var config = {
             id: 'Section20',
             alignment: 'center',
             hidden: false,
-            description: 'This storymap is the product of a collaboration between Madeleine Hamlin, PhD, and the Invisible Institute. It was produced by Madeleine Hamlin and Jamie Kalven, with mapping and technical support from Tingkuan Hsieh, Maheen Khan, Sophie Schadler, and Sophie Thompson. Funding support for this project was provided by the Colgate University Public Affairs and Policy Research Initiative. Copyright 2024.', 
+            description: 'This storymap is the product of a collaboration between Madeleine Hamlin, PhD, and the Invisible Institute. It was produced by Madeleine Hamlin and Jamie Kalven, with mapping and technical support from Tingkuan Hsieh, Maheen Khan, Sophie Schadler, and Sophie Thompson. Funding support for this project was provided by the Colgate University Public Affairs and Policy Research Initiative. For questions, please contact mhamlin [at] colgate.edu. Copyright 2024.', 
             location: {
                 center: [-87.63726, 41.88938],
                 zoom: 12,
