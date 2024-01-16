@@ -156,7 +156,7 @@ var config = {
         {
             id: 'Section10',
             title: 'STATEWAY GARDENS',
-            alignment: 'center',
+            alignment: 'right',
             hidden: false,
             description: 'As the local economy collapsed, the informal economy—the economy of hustle, including but not limited to the drug trade—grew. Fueled by media reports, CHA developments became known as sites of gang and drug activity. Open-air drug markets served a broad cross-section of customers. In effect, CHA developments increasingly operated as vice zones where illicit activities could take place without disturbing the regular commerce or tourism that drove the city’s mainstream economic engine.',
             location: {
@@ -170,13 +170,12 @@ var config = {
         },
         {
             id: 'Section11',
-            title: 'CABRINI-GREEN',
             alignment: 'right',
             hidden: false,
             description: 'Like many other Black neighborhoods, CHA developments were simultaneously over- and under-policed. By the 1980s, the Chicago Police Department (CPD) had established specific beats to patrol public housing, as well as tactics such as “vertical patrols,” in which groups of police officers would walk floor-to-floor in the high-rises. Officers were supported by pervasive surveillance technologies, including CCTV cameras and hidden wires, making CHA developments among the most heavily surveilled sites in the city. Rather than provide social services to alleviate conditions of extreme poverty, policing of crime became the primary vehicle for exercising social control. At the same time, residents complained that officers often did not respond to calls when needed and were ineffective at stopping or solving crimes. Many complained of regular disrespect, abuse, and violence by officers.',
             location: {
-                center: [-87.64092, 41.90058],
-                zoom: 15,
+                center: [-87.62610, 41.80931],
+                zoom: 15.5,
                 pitch: 0,
                 bearing: 0
             },
@@ -185,14 +184,14 @@ var config = {
         },
         {
             id: 'Section12',
-            alignment: 'center',
+            alignment: 'right',
             hidden: false,
             image: 'images/Image12.png',
             description: 'In the 1990s, partially in response to complaints that the CPD was failing to adequately police public housing, the it was joined by a new force: the Chicago Housing Authority Police. Building an in-house police force expanded CHA’s law enforcement function, making it both landlord and police. CHA Police officers—numbering about 500 at the force’s height—had full powers of arrest in CHA developments and worked out of sub-stations within several of the complexes, complete with lock-up facilities. Together, CPD and the CHA police officers conducted unconstitutional raids of public housing buildings, ransacking apartments before dawn. In short, the CHA Police force drained federal monies otherwise earmarked for building maintenance, while making public housing into an ever-more prison-like space—one where all residents were treated as criminals and presumed guilty until proven innocent.<br><br>',
             credit: "Photo (c) Patricia Evans",
             location: {
-                center: [-87.64092, 41.90058],
-                zoom: 17,
+                center: [-87.62610, 41.80931],
+                zoom: 15.5,
                 pitch: 0,
                 bearing: 0
             },
@@ -201,6 +200,7 @@ var config = {
         },
         {
             id: 'Section13',
+            title: 'CABRINI-GREEN',
             alignment: 'center',
             hidden: false,
             image: 'images/image13.jpg',
@@ -230,15 +230,15 @@ var config = {
         },
         {
             id: 'Section15',
-            title: 'STATEWAY GARDENS',
+            title: 'ROBERT TAYLOR HOMES',
             alignment: 'right',
             hidden: false,
             image: 'images/image15.png',
             description: 'Long before the Plan for Transformation was announced, it was clear to residents that demolition was coming. CHA ceased turning over vacant units, slowing shutting down entire floors and then entire buildings. Thus, the resident population began to decline, despite the massive demand for housing as reflected in the city’s decades-long public housing waitlist. This artificial production of vacancy was used by CHA as a rationale for reducing the number of units it was responsible for replacing—from 42,000 units at CHA’s height, to the 25,000 units that were promised in the Plan. Some high-rises became de facto homeless shelters, as homeless families squatted in vacant units until evicted—a clear reflection of human need that was being unaddressed.<br><br>',
             credit: "Photo (c) Patricia Evans",
             location: {
-                center: [-87.62610, 41.80931],
-                zoom: 14,
+                center: [-87.62589, 41.80188],
+                zoom: 15,
                 pitch: 0,
                 bearing: 0
             },
@@ -278,14 +278,14 @@ var config = {
         {
             id: 'Section18',
             title: 'CABRINI-GREEN',
-            alignment: 'center',
+            alignment: 'right',
             hidden: false,
             image: 'images/image18.jpg',
             description: 'Judged on its own terms, the Plan for Transformation did not achieve its stated goals. It is yet to produce the total number of replacement units CHA committed to produce. It has not resulted in thriving mixed-income communities. In the course of forced relocation, the agency lost track of an unknown but substantial number of tenants. Today, fewer than 7,000 units of traditional public housing remain, while some 44,000 people are on the CHA waitlist for public housing and another 35,000 people are on the voucher waitlist. Large expanses of land that used to house those in need stand vacant in the central city; others, such as the former site of Cabrini Green, have been gentrified. And, the CHA has, in effect, become a commercial real estate broker for big box stores and sports facilities, including the XS Tennis Village at the site of the Robert Taylor Homes, Mariano’s at the site of the Ida B. Wells Homes, Target at the site of the Cabrini Green Homes, and a planned training facility for the Chicago Fire professional soccer team on the site of the ABLA Homes.<br><br>', 
             credit: "Photo (c) Patricia Evans",
             location: {
-                center: [-87.64986, 41.86878],
-                zoom: 12,
+                center: [-87.64092, 41.90058],
+                zoom: 15,
                 pitch: 0,
                 bearing: 0
             },
@@ -295,7 +295,7 @@ var config = {
         {
             id: 'Section19',
             title: 'STATEWAY GARDENS',
-            alignment: 'center',
+            alignment: 'right',
             hidden: false,
             image: 'images/image19.png',
             description: 'There has been, however, one way in which the Plan deserves to be described as transformative. Demolition and forced relocation have effectively disappeared people, places, and issues. The Plan has also remapped our moral imaginations, shaping what we can see and what is rendered invisible. The upshot is that we are yet to reckon with this history and its implications for the future.<br><br>', 
@@ -303,7 +303,7 @@ var config = {
             location: {
                 center: [-87.62610, 41.80931],
                 zoom: 15.5,
-                pitch: 0,
+                pitch: 45,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
