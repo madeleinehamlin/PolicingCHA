@@ -59,6 +59,29 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Public Housing Complete',
+                    opacity: 0
+                },
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 0
+                }
+           ],
+           onChapterExit: [
+                {
+                    
+                }
+           ]
         },
         {
             id: 'Section4',
@@ -75,6 +98,29 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Public Housing Complete',
+                    opacity: 0
+                },
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 0
+                }
+           ],
+           onChapterExit: [
+                {
+                    
+                }
+           ]
         },
         {
             id: 'Section5',
@@ -91,6 +137,29 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Public Housing Complete',
+                    opacity: 0
+                },
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 0
+                }
+           ],
+           onChapterExit: [
+                {
+                    
+                }
+           ]
         },
         {
             id: 'Section6',
@@ -107,6 +176,26 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Public Housing Complete',
+                    opacity: 1
+                },
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 1
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 1
+                },
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 1
+                }
+           ],
+           onChapterExit: [
+           ]
         },
         {
             id: 'Section7',
@@ -201,7 +290,7 @@ var config = {
         {
             id: 'Section13',
             title: 'CABRINI-GREEN',
-            alignment: 'center',
+            alignment: 'center-image',
             hidden: false,
             image: 'images/image13.jpg',
             description: 'All this police activity did little to halt the drug trade, curb crime, or stop violence in public housing. In 1992, 7-year-old Dantrell Davis was shot and killed by a stray bullet at Cabrini-Green. Although not the first child to die by such random violence in public housing, Davis’ death prompted an unprecedented media maelstrom and sparked widespread public outrage. In the wake of his death, policymakers argued that crime and violence in public housing were intolerable and, implicitly, that they were beyond what policing alone could control. Over time, these arguments would serve other ends: a growing movement to demolish and replace public housing.',
@@ -248,7 +337,7 @@ var config = {
         {
             id: 'Section16',
             title: 'IDA B. WELLS HOMES',
-            alignment: 'center',
+            alignment: 'center-image',
             hidden: false,
             image: 'images/image16.jpeg',
             description: 'These conditions were ripe for police predation. As buildings emptied out in the early 2000s, police increasingly focused on the shadow play of narcotics enforcement rather than protecting public housing residents. Although CHA still transferred money to the police department for supplemental services (over $161 million between 2000 and 2012), police were allowed to operate with little oversight in an increasingly hollowed-out landscape, leaving remaining residents extremely vulnerable to corrupt officers such as former CPD Sergeant Ronald Watts. Between the late 1990s and 2012, Watts and his tactical team operated a protection racket, extorting a “tax” from drug dealers in the Ida B. Wells Homes as the buildings were slowly demolished around them. Watts and his conspirators planted evidence and fabricated drug and gun charges, resulting in the wrongful incarceration of hundreds of public housing tenants. Watts and his partner, former Officer Kallat Mohammed, were ultimately caught in an FBI sting in 2011 and convicted on a single charge of stealing government property, for which they received sentences of 22 months and 18 months, respectively. To date, 183 Watts’ victims have been exonerated, with victims collectively serving more than 450 years in prison.',
