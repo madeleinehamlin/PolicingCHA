@@ -26,6 +26,37 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Public Housing Complete',
+                    opacity: 0
+                },
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Cabrini-Green',
+                    opacity: 0
+                },
+                {
+                    layer: 'Trumbull Park',
+                    opacity: 0
+                }
+           ],
+           onChapterExit: [
+                {
+                    
+                }
+           ]
         },
         {
             id: 'Section2',
@@ -42,6 +73,37 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Public Housing Complete',
+                    opacity: 0
+                },
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Cabrini-Green',
+                    opacity: 0
+                },
+                {
+                    layer: 'Trumbull Park',
+                    opacity: 0
+                }
+           ],
+           onChapterExit: [
+                {
+                    
+                }
+           ]
         },
         {
             id: 'Section3',
@@ -75,13 +137,21 @@ var config = {
                 {
                     layer: 'Taylor Homes',
                     opacity: 0
+                },
+                {
+                    layer: 'Cabrini-Green',
+                    opacity: 0
+                },
+                {
+                    layer: 'Trumbull Park',
+                    opacity: 0
                 }
            ],
            onChapterExit: [
                 {
                     
                 }
-           ]
+           ]         
         },
         {
             id: 'Section4',
@@ -113,6 +183,14 @@ var config = {
                 },
                 {
                     layer: 'Taylor Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Cabrini-Green',
+                    opacity: 0
+                },
+                {
+                    layer: 'Trumbull Park',
                     opacity: 0
                 }
            ],
@@ -153,6 +231,14 @@ var config = {
                 {
                     layer: 'Taylor Homes',
                     opacity: 0
+                },
+                {
+                    layer: 'Cabrini-Green',
+                    opacity: 0
+                },
+                {
+                    layer: 'Trumbull Park',
+                    opacity: 0
                 }
            ],
            onChapterExit: [
@@ -191,6 +277,14 @@ var config = {
                 },
                 {
                     layer: 'Taylor Homes',
+                    opacity: 1
+                },
+                {
+                    layer: 'Cabrini-Green',
+                    opacity: 1
+                },
+                {
+                    layer: 'Trumbull Park',
                     opacity: 1
                 }
            ],
