@@ -47,6 +47,10 @@ var config = {
                 {
                     layer: 'Trumbull Park',
                     opacity: 0
+                },
+                {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0
                 }
            ],
            onChapterExit: [
@@ -140,6 +144,10 @@ var config = {
                 {
                     layer: 'Trumbull Park',
                     opacity: 0
+                },
+                {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0
                 }
            ],
            onChapterExit: [
@@ -188,6 +196,10 @@ var config = {
                 {
                     layer: 'Trumbull Park',
                     opacity: 0
+                },
+                {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0.46
                 }
            ],
            onChapterExit: [
@@ -347,6 +359,18 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0.46
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'Section9',
