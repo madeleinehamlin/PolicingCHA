@@ -366,10 +366,6 @@ var config = {
                 }
             ],
             onChapterExit: [
-                {
-                    layer: 'Black Belt Polygon',
-                    opacity: 0
-                }
             ]
         },
         {
@@ -388,6 +384,12 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'Section10',
