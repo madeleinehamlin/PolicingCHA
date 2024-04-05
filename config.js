@@ -51,6 +51,22 @@ var config = {
                 {
                     layer: 'Black Belt Polygon',
                     opacity: 0
+                },
+                {
+                    layer: 'asian-random-dots-v1',
+                    opacity: 0
+                },
+                {
+                    layer: 'black-random-dots-v1',
+                    opacity: 0
+                },
+                {
+                    layer: 'hispanic-random-dots-v1',
+                    opacity: 0
+                },
+                {
+                    layer: 'white-random-dots-v1',
+                    opacity: 0
                 }
            ],
            onChapterExit: [
@@ -64,8 +80,8 @@ var config = {
             title: 'CHICAGO',
             alignment: 'right',
             hidden: false,
-            image: 'images/Image1.png',
-            description: 'Chicago is one of the most racially segregated cities in the country. This is not an accident nor is it the result of individual preferences.<br><br>',
+            legend: '',
+            description: 'Chicago is one of the most racially segregated cities in the country. This is not an accident nor is it the result of individual preferences.<br><br> ',
             credit: 'Map made by Madeleine Hamlin and Maheen Khan using data from the 2020 U.S. Census',
             location: {
                 center: [-87.63726, 41.88938],
@@ -99,6 +115,22 @@ var config = {
                 {
                     layer: 'Trumbull Park',
                     opacity: 0
+                },
+                {
+                    layer: 'asian-random-dots-v1',
+                    opacity: 1
+                },
+                {
+                    layer: 'black-random-dots-v1',
+                    opacity: 1
+                },
+                {
+                    layer: 'hispanic-random-dots-v1',
+                    opacity: 1
+                },
+                {
+                    layer: 'white-random-dots-v1',
+                    opacity: 1
                 }
            ],
            onChapterExit: [
@@ -111,6 +143,7 @@ var config = {
             id: 'Section3',
             alignment: 'right',
             hidden: false,
+            legend: '',
             description: 'Between 1916 and 1970, 500,000 African Americans moved to Chicago from the South during successive waves of the Great Migration, seeking a better life and fleeing the Jim Crow legal regime enforced by terror.<br><br>',
             location: {
                 center: [-87.63726, 41.88938],
@@ -148,6 +181,22 @@ var config = {
                 {
                     layer: 'Black Belt Polygon',
                     opacity: 0
+                },
+                {
+                    layer: 'asian-random-dots-v1',
+                    opacity: 1
+                },
+                {
+                    layer: 'black-random-dots-v1',
+                    opacity: 1
+                },
+                {
+                    layer: 'hispanic-random-dots-v1',
+                    opacity: 1
+                },
+                {
+                    layer: 'white-random-dots-v1',
+                    opacity: 1
                 }
            ],
            onChapterExit: [
@@ -200,6 +249,22 @@ var config = {
                 {
                     layer: 'Black Belt Polygon',
                     opacity: 0.46
+                },
+                {
+                    layer: 'asian-random-dots-v1',
+                    opacity: 0
+                },
+                {
+                    layer: 'black-random-dots-v1',
+                    opacity: 0
+                },
+                {
+                    layer: 'hispanic-random-dots-v1',
+                    opacity: 0
+                },
+                {
+                    layer: 'white-random-dots-v1',
+                    opacity: 0
                 }
            ],
            onChapterExit: [
@@ -341,6 +406,10 @@ var config = {
                 {
                     layer: 'Trumbull Park',
                     opacity: 1
+                },
+                {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0
                 }
            ],
            onChapterExit: [
