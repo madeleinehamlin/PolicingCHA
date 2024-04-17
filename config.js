@@ -14,7 +14,7 @@ var config = {
             id: 'Section1',
             alignment: 'center',
             hidden: false,
-            description: 'This story map provides an overview of the relationship between public housing and policing in Chicago. Much of the public housing discussed here has been destroyed as part of Chicago’s Plan for Transformation. On this map, the historic developments are shown in red. As the story unfolds, the map will move between relevant public housing developments. (Please note that the developments are not shown to scale.)  <br><br>',
+            description: 'This story map provides an overview of the relationship between public housing and policing in Chicago. Much of the public housing discussed here has been destroyed as part of Chicago’s Plan for Transformation. On this map, the historic developments are shown in red. As the story unfolds, the map will move between relevant public housing developments. (Please note that the developments are not shown to scale.)',
             location: {
                 center: [-87.63726, 41.88938],
                 zoom: 9,
@@ -81,7 +81,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             legend: '',
-            description: 'Chicago is one of the most racially segregated cities in the country. This is not an accident nor is it the result of individual preferences.<br><br> ',
+            description: 'Chicago is one of the most racially segregated cities in the country. This is not an accident nor is it the result of individual preferences.<br><ul><li>Asian</li><li>Black</li><li>Hispanic</li><li>White</li></ul><style>li:nth-child(1) {color: #F32B2B;font-size: 1.2em;}li:nth-child(2) {color: #2B9419;font-size: 1.2em;}li:nth-child(3) {color: #F4AC26;font-size: 1.2em;}li:nth-child(4) {color: #1675EF; font-size: 1.2em;}li span {color: black;}li::marker {font-size: 2em; font-weight: bold;}</style>',
             credit: 'Map made by Madeleine Hamlin and Maheen Khan using data from the 2020 U.S. Census',
             location: {
                 center: [-87.63726, 41.88938],
@@ -117,19 +117,19 @@ var config = {
                     opacity: 0
                 },
                 {
-                    layer: 'asian-random-dots-v1',
+                    layer: 'asian-dots',
                     opacity: 1
                 },
                 {
-                    layer: 'black-random-dots-v1',
+                    layer: 'black-dots',
                     opacity: 1
                 },
                 {
-                    layer: 'hispanic-random-dots-v1',
+                    layer: 'hispanic-dots',
                     opacity: 1
                 },
                 {
-                    layer: 'white-random-dots-v1',
+                    layer: 'white-dots',
                     opacity: 1
                 }
            ],
