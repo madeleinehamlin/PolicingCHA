@@ -81,7 +81,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             legend: '',
-            description: 'Chicago is one of the most racially segregated cities in the country. This is not an accident nor is it the result of individual preferences.<br><ul><li>Asian</li><li>Black</li><li>Hispanic</li><li>White</li></ul><style>li:nth-child(1) {color: #F32B2B;font-size: 1.2em;}li:nth-child(2) {color: #2B9419;font-size: 1.2em;}li:nth-child(3) {color: #F4AC26;font-size: 1.2em;}li:nth-child(4) {color: #1675EF; font-size: 1.2em;}li span {color: black;}li::marker {font-size: 2em; font-weight: bold;}</style>',
+            description: 'Chicago is one of the most racially segregated cities in the country. This is not an accident, nor is it the result of individual preferences.<br><ul><li>Asian</li><li>Black</li><li>Hispanic</li><li>White</li></ul><style>li:nth-child(1) {color: #F32B2B;font-size: 1.2em;}li:nth-child(2) {color: #2B9419;font-size: 1.2em;}li:nth-child(3) {color: #F4AC26;font-size: 1.2em;}li:nth-child(4) {color: #1675EF; font-size: 1.2em;}li span {color: black;}li::marker {font-size: 2em; font-weight: bold;}</style>',
             credit: 'Map made by Madeleine Hamlin and Maheen Khan using data from the 2020 U.S. Census',
             location: {
                 center: [-87.63726, 41.88938],
@@ -141,10 +141,12 @@ var config = {
         },
         {
             id: 'Section3',
-            alignment: 'right',
+            alignment: 'center',
             hidden: false,
             legend: '',
-            description: 'Between 1916 and 1970, 500,000 African Americans moved to Chicago from the South during successive waves of the Great Migration, seeking a better life and fleeing the Jim Crow legal regime enforced by terror.<br><br>',
+            image: 'images/GreatMigration.png',
+            description: 'During the early decades of the twentieth century, 500,000 African Americans moved to Chicago from the South during successive waves of the Great Migration, seeking a better life and fleeing the Jim Crow legal regime enforced by terror.<br><br>',
+            credit: 'Image source: Siegel, Michael, “The Great Migration, 1900-1929,” Digital Public Library of America, https://dp.la/item/be891ab498f510adcf69a5a125f2a711.',
             location: {
                 center: [-87.63726, 41.88938],
                 zoom: 11,
@@ -215,7 +217,7 @@ var config = {
 			credit: "Image source: WTTW",
             location: {
                 center: [-87.60742, 41.8172],
-                zoom: 13.15,
+                zoom: 13,
                 pitch: 45,
                 bearing: 0
             },
@@ -282,7 +284,7 @@ var config = {
             credit: "Image source: Chicago History Museum, ICHi-065485; Jun Fujita, photographer",
             location: {
                 center: [-87.60742, 41.8172],
-                zoom: 13.15,
+                zoom: 13,
                 pitch: 45,
                 bearing: 0
             },
@@ -329,7 +331,7 @@ var config = {
             credit: "Image source: Library of Congress",
             location: {
                 center: [-87.60742, 41.8172],
-                zoom: 13.15,
+                zoom: 13,
                 pitch: 45,
                 bearing: 0
             },
@@ -376,7 +378,7 @@ var config = {
             credit: "Image source: Chicago History Museum, ICHi-035845; Clarence W. Hines, photographer",
             location: {
                 center: [-87.60742, 41.8172],
-                zoom: 13.15,
+                zoom: 13,
                 pitch: 45,
                 bearing: 0
             },
@@ -419,10 +421,12 @@ var config = {
             id: 'Section8',
             alignment: 'right',
             hidden: false,
+            image: 'images/Wood_Elizabeth.jpeg',
             description: 'Elizabeth Wood, the first director of CHA, wanted to distribute public housing across the city. This plan was resisted by aldermen representing white neighborhoods. As a result, the bulk of high-rise public housing was constructed within the footprint of the Black Belt. In the end, public housing reinforced rather than eased segregation.<br><br>',
+            credit: "Image source: Chicago Housing Authority",
             location: {
                 center: [-87.60742, 41.8172],
-                zoom: 13.15,
+                zoom: 13,
                 pitch: 45,
                 bearing: 0
             },
@@ -479,7 +483,9 @@ var config = {
             title: 'STATEWAY GARDENS',
             alignment: 'right',
             hidden: false,
-            description: 'As the local economy collapsed, the informal economy—the economy of hustle, including but not limited to the drug trade—grew. Fueled by media reports, CHA developments became known as sites of gang and drug activity. Open-air drug markets served a broad cross-section of customers. In effect, CHA developments increasingly operated as vice zones where illicit activities could take place without disturbing the regular commerce or tourism that drove the city’s mainstream economic engine.',
+            image: 'images/Dogface.jpg',
+            description: 'As the local economy collapsed, the informal economy—the economy of hustle, including but not limited to the drug trade—grew. Fueled by media reports, CHA developments became known as sites of gang and drug activity. Open-air drug markets served a broad cross-section of customers. In effect, CHA developments increasingly operated as vice zones where illicit activities could take place without disturbing the regular commerce or tourism that drove the city’s mainstream economic engine.<br><br>',
+            credit: "Photo (c) Patricia Evans",
             location: {
                 center: [-87.62610, 41.80931],
                 zoom: 15.5,
@@ -493,7 +499,9 @@ var config = {
             id: 'Section12',
             alignment: 'right',
             hidden: false,
-            description: 'CHA developments were simultaneously over- and under-policed. By the 1980s, the Chicago Police Department (CPD) had assigned specific units to patrol public housing and had deployed tactics such as “vertical patrols,” in which groups of police officers would walk floor-to-floor in the high-rises, as well as  various surveillance technologies, such as CCTV cameras. Rather than provide social services to alleviate conditions of extreme poverty, policing of crime became the primary vehicle for exercising social control. At the same time, residents complained that officers often did not respond to calls when needed and were ineffective at stopping or solving crimes. Many complained of regular abuse, corruption, and violence by officers.',
+            image: 'images/Policing.jpeg',
+            description: 'CHA developments were simultaneously over- and under-policed. By the 1980s, the Chicago Police Department (CPD) had assigned specific units to patrol public housing and had deployed tactics such as “vertical patrols,” in which groups of police officers would walk floor-to-floor in the high-rises, as well as  various surveillance technologies, such as CCTV cameras. Rather than provide social services to alleviate conditions of extreme poverty, policing of crime became the primary vehicle for exercising social control. At the same time, residents complained that officers often did not respond to calls when needed and were ineffective at stopping or solving crimes. Many complained of regular abuse, corruption, and violence by officers.<br><br>',
+            credit: "Photo (c) Patricia Evans",
             location: {
                 center: [-87.62610, 41.80931],
                 zoom: 15.5,
@@ -527,7 +535,7 @@ var config = {
             image: 'images/image13.jpg',
             description: 'All this police activity did little to halt the drug trade, curb crime, or stop violence in public housing. In 1992, 7-year-old Dantrell Davis was shot and killed by a stray bullet at Cabrini-Green. Although not the first child killed by random violence in public housing, Davis’ death prompted an unprecedented media maelstrom and sparked widespread public outrage. In the wake of his death, policymakers argued that crime and violence in public housing were intolerable and, implicitly, that they were beyond what policing alone could control. Over time, these arguments would serve other ends: a growing movement to demolish and replace public housing.',
             location: {
-                center: [-87.64092, 41.90058],
+                center: [-87.63736, 41.90204],
                 zoom: 15,
                 pitch: 0,
                 bearing: 0
@@ -558,7 +566,7 @@ var config = {
             description: 'Long before the Plan for Transformation was announced, it was clear to residents that demolition was coming. CHA ceased turning over vacant units, shutting down entire floors and then entire buildings. Thus, the resident population began to decline, despite the massive demand for housing as reflected in the city’s decades-long public housing waitlist. This artificially produced vacancy rate was used by CHA as a rationale for reducing the number of units it was responsible for replacing—from 42,000 units at full occupancy to the 25,000 units that were promised in the Plan. Some high-rises became de facto homeless shelters, as homeless families squatted in vacant units until evicted—a clear reflection of the need that was not being addressed.<br><br>',
             credit: "Photo (c) Patricia Evans",
             location: {
-                center: [-87.62589, 41.80188],
+                center: [-87.62268, 41.80202],
                 zoom: 15,
                 pitch: 0,
                 bearing: 0
@@ -605,7 +613,7 @@ var config = {
             description: 'Judged on its own terms, the Plan for Transformation did not achieve its stated goals. It is yet to produce the total number of replacement units CHA committed to produce. It has not resulted in thriving mixed-income communities. In the course of forced relocation, the agency lost track of an unknown but substantial number of tenants. Today, fewer than 7,000 units of traditional public housing remain, while some 44,000 people are on the CHA waitlist for public housing and another 35,000 people are on the voucher waitlist. Vast expanses of land that used to house those in need stand vacant in the central city; others, such as the former site of Cabrini Green, have been gentrified. And, the CHA has, in effect, become a commercial real estate broker for big box stores and sports facilities, including the XS Tennis Village at the site of the Robert Taylor Homes, Mariano’s at the site of the Ida B. Wells Homes, Target at the site of the Cabrini Green Homes, and a planned training facility for the Chicago Fire professional soccer team on the site of the ABLA Homes.<br><br>', 
             credit: "Photo (c) Patricia Evans",
             location: {
-                center: [-87.64092, 41.90058],
+                center: [-87.63736, 41.90204],
                 zoom: 15,
                 pitch: 0,
                 bearing: 0
@@ -634,7 +642,7 @@ var config = {
             id: 'Section21',
             alignment: 'center',
             hidden: false,
-            description: 'This storymap is the product of a collaboration between Madeleine Hamlin, PhD, and the Invisible Institute. It was produced by Madeleine Hamlin and Jamie Kalven, with mapping and technical support from Tingkuan Hsieh, Maheen Khan, Sophie Schadler, and Sophie Thompson. Funding support for this project was provided by the Colgate University Public Affairs and Policy Research Initiative. For questions, please contact mhamlin [at] colgate.edu. Copyright 2024.', 
+            description: 'This storymap is the product of a collaboration between Madeleine Hamlin, PhD, and the Invisible Institute. It was produced by Madeleine Hamlin and Jamie Kalven, with mapping and technical support from Tingkuan Hsieh, Maheen Khan, Sophie Schadler, and Sophie Thompson. Thanks to Patricia Evans for the use of her photographs. Funding support for this project was provided by the Colgate University Public Affairs and Policy Research Initiative. For questions, please contact mhamlin [at] colgate.edu. Copyright 2024.', 
             location: {
                 center: [-87.63726, 41.88938],
                 zoom: 12,
