@@ -33,8 +33,8 @@ var config = {
             description: 'Chicago is one of the most racially segregated cities in the country. This is not an accident, nor is it the result of individual preferences.<br><ul><li>Asian</li><li>Black</li><li>Hispanic</li><li>White</li></ul><style>li:nth-child(1) {color: #F32B2B;font-size: 1.2em;}li:nth-child(2) {color: #2B9419;font-size: 1.2em;}li:nth-child(3) {color: #F4AC26;font-size: 1.2em;}li:nth-child(4) {color: #1675EF; font-size: 1.2em;}li span {color: black;}li::marker {font-size: 2em; font-weight: bold;}</style>',
             credit: 'Map made by Madeleine Hamlin and Maheen Khan using data from the 2020 U.S. Census',
             location: {
-                center: [-87.63726, 41.88938],
-                zoom: 9,
+                center: [-87.49296, 41.82967],
+                zoom: 9.6,
                 pitch: 0,
                 bearing: 0
             },
@@ -42,20 +42,20 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
                 {
-                    layer: 'asian-dots',
-                    opacity: 0.70
-                },
-                {
                     layer: 'black-dots',
-                    opacity: 0.35
-                },
-                {
-                    layer: 'hispanic-dots',
-                    opacity: 0.50
+                    opacity: 0.3
                 },
                 {
                     layer: 'white-dots',
-                    opacity: 0.60
+                    opacity: 0.6
+                },
+                {
+                    layer: 'hispanic-dots',
+                    opacity: 0.7
+                },
+                {
+                    layer: 'asian-dots',
+                    opacity: 0.9
                 }
            ],
            onChapterExit: [
@@ -315,6 +315,10 @@ var config = {
                 {
                     layer: 'Trumbull Park',
                     opacity: 1
+                },
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
                 }
             ]
         },
@@ -341,12 +345,6 @@ var config = {
                 },
                 {
                     layer: 'Trumbull Park',
-                    opacity: 0
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'Stateway Gardens',
                     opacity: 0
                 }
             ]
