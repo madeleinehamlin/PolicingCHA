@@ -139,7 +139,7 @@ var config = {
             id: 'Section5',
             alignment: 'right',
             hidden: false,
-            image: 'images/Image4.jpg',
+            image: 'images/image4.jpg',
             description: 'The Great Migration gave rise to tensions over housing and employment that erupted into violence in the 1919 Race Riot. Prior to the riot, the city was not yet rigidly segregated. After the riot, the boundaries between Black and white Chicago were sharply drawn and fiercely defended. Police responded to the public emergency of the riot by establishing a cordon around the Black Belt.An emergency measure during a race war, policing as containment soon became normalized.<br><br>',
             credit: "Image source: Chicago History Museum, ICHi-065485; Jun Fujita, photographer",
             location: {
