@@ -93,6 +93,12 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0
+                }
+           ]  
         },
         {
             id: 'Section4',
@@ -127,13 +133,7 @@ var config = {
                     layer: 'Wells Homes',
                     opacity: 0
                 } 
-           ],
-           onChapterExit: [
-                {
-                    layer: 'Black Belt Polygon',
-                    opacity: 0
-                }
-           ]         
+           ]        
         },
         {
             id: 'Section5',
@@ -152,17 +152,9 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
                 {
-                    layer: 'Stateway Gardens',
-                    opacity: 1
-                },
-                {
-                    layer: 'Taylor Homes',
-                    opacity: 1
-                },
-                {
-                    layer: 'Wells Homes',
-                    opacity: 1
-                } 
+                    layer: 'Black Belt Polygon',
+                    opacity: 0.46
+                }
            ]
         },
         {
@@ -182,17 +174,21 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
                 {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0.46
+                },
+                {
                     layer: 'Stateway Gardens',
-                    opacity: 1
+                    opacity: 0
                 },
                 {
                     layer: 'Taylor Homes',
-                    opacity: 1
+                    opacity: 0
                 },
                 {
                     layer: 'Wells Homes',
-                    opacity: 1
-                }
+                    opacity: 0
+                },
            ]   
         },
         {
@@ -222,6 +218,10 @@ var config = {
                 {
                     layer: 'Wells Homes',
                     opacity: 1
+                },
+                {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0.3 
                 }
            ]
         },
@@ -252,20 +252,10 @@ var config = {
                 {
                     layer: 'Wells Homes',
                     opacity: 1
-                }
-           ],
-           onChapterExit: [
-                {
-                    layer: 'Stateway Gardens',
-                    opacity: 0
                 },
                 {
-                    layer: 'Taylor Homes',
-                    opacity: 0
-                },
-                {
-                    layer: 'Wells Homes',
-                    opacity: 0
+                    layer: 'Black Belt Polygon',
+                    opacity: 0.3 
                 }
            ]
         },
@@ -289,6 +279,22 @@ var config = {
                 {
                     layer: 'Trumbull Park',
                     opacity: 1
+                },
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                },
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Black Belt Polygon',
+                    opacity: 0 
                 }
             ]
         },
@@ -310,12 +316,6 @@ var config = {
                     layer: 'Trumbull Park',
                     opacity: 1
                 }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'Trumbull Park',
-                    opacity: 0
-                }
             ]
         },
         {
@@ -327,7 +327,7 @@ var config = {
             description: 'As the local economy collapsed, the informal economy—the economy of hustle, including but not limited to the drug trade—grew. Fueled by media reports, CHA developments became known as sites of gang and drug activity. Open-air drug markets served a broad cross-section of customers. In effect, CHA developments increasingly operated as vice zones where illicit activities could take place without disturbing the regular commerce or tourism that drove the city’s mainstream economic engine.<br><br>',
             credit: "Photo (c) Patricia Evans",
             location: {
-                center: [-87.62610, 41.80931],
+                center: [-87.62520, 41.82732],
                 zoom: 15.5,
                 pitch: 45,
                 bearing: 0
@@ -338,6 +338,10 @@ var config = {
                 {
                     layer: 'Stateway Gardens',
                     opacity: 1
+                },
+                {
+                    layer: 'Trumbull Park',
+                    opacity: 0
                 }
             ],
             onChapterExit: [
@@ -355,7 +359,7 @@ var config = {
             description: 'CHA developments were simultaneously over- and under-policed. By the 1980s, the Chicago Police Department (CPD) had assigned specific units to patrol public housing and had deployed tactics such as “vertical patrols,” in which groups of police officers would walk floor-to-floor in the high-rises, as well as  various surveillance technologies, such as CCTV cameras. Rather than provide social services to alleviate conditions of extreme poverty, policing of crime became the primary vehicle for exercising social control. At the same time, residents complained that officers often did not respond to calls when needed and were ineffective at stopping or solving crimes. Many complained of regular abuse, corruption, and violence by officers.<br><br>',
             credit: "Photo (c) Patricia Evans",
             location: {
-                center: [-87.62610, 41.80931],
+                center: [-87.62520, 41.82732],
                 zoom: 15.5,
                 pitch: 45,
                 bearing: 0
@@ -366,12 +370,6 @@ var config = {
                 {
                     layer: 'Stateway Gardens',
                     opacity: 1
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'Stateway Gardens',
-                    opacity: 0
                 }
             ]
         },
@@ -383,7 +381,7 @@ var config = {
             description: 'In the 1990s, in response to complaints that the CPD was failing to adequately police public housing, it was joined by a new force: the Chicago Housing Authority Police. This expanded CHA’s law enforcement function, making it both landlord and police. CHA officers—numbering about 500 at the force’s height—had full powers of arrest in CHA developments and worked out of sub-stations within several of the complexes, complete with lock-up facilities. Together, CPD and the CHA police officers conducted unconstitutional raids of public housing buildings, ransacking apartments before dawn. In effect, the CHA Police force drained federal funds otherwise earmarked for building maintenance, while making public housing into an ever-more prison-like space where residents were presumed to be criminals.<br><br>',
             credit: "Photo (c) Patricia Evans",
             location: {
-                center: [-87.62610, 41.80931],
+                center: [-87.62520, 41.82732],
                 zoom: 15.5,
                 pitch: 45,
                 bearing: 0
@@ -394,12 +392,6 @@ var config = {
                 {
                     layer: 'Stateway Gardens',
                     opacity: 1
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'Stateway Gardens',
-                    opacity: 0
                 }
             ]
         },
@@ -422,6 +414,10 @@ var config = {
                 {
                     layer: 'Cabrini-Green',
                     opacity: 1
+                },
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
                 }
             ],
             onChapterExit: [
@@ -465,6 +461,10 @@ var config = {
                 {
                     layer: 'Taylor Homes',
                     opacity: 1
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 0
                 }
             ],
             onChapterExit: [
@@ -482,8 +482,8 @@ var config = {
             image: 'images/image16.jpeg',
             description: 'As buildings gradually emptied out in the early 2000s, conditions were ripe for heightened police corruption and abuse. Although CHA transferred money to the police department for supplemental services (over $161 million between 2000 and 2012), police were allowed to operate with little oversight in an increasingly hollowed-out landscape, leaving the remaining residents vulnerable to corrupt officers such as former CPD Sergeant Ronald Watts. Between the late 1990s and 2012, Watts and his tactical team operated a protection racket, extorting a “tax” from drug dealers in the Ida B. Wells Homes and neighboring developments as the buildings were slowly demolished around them. Watts and his co-conspirators planted evidence and fabricated drug and gun charges, resulting in the wrongful incarceration of hundreds of public housing tenants. Finally, in 2012, Watts and his partner Kallat Mohammed were caught in an FBI sting and convicted on a single charge of stealing government property, for which they received sentences of 22 months and 18 months, respectively. To date, 183 Watts’ victims have been exonerated.',
             location: {
-                center: [-87.61335, 41.82577],
-                zoom: 16.5,
+                center: [-87.6071, 41.82577],
+                zoom: 15.3,
                 pitch: 45,
                 bearing: 0
             },
@@ -494,12 +494,6 @@ var config = {
                     layer: 'Wells Homes',
                     opacity: 1
                 }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'Wells Homes',
-                    opacity: 0
-                }
             ]
         },
         {
@@ -508,13 +502,19 @@ var config = {
             hidden: false,
             description: 'The practices employed by Watts and his team—shaking down drug dealers, skimming off the top of money seized, planting guns and drugs on tenants—were commonplace in public housing at this time. Under conditions of abandonment, rogue police officers preyed on a population that had been criminalized by the War on Drugs and portrayed by the media as beyond the pale. The policing of public housing was thus the extreme case that illuminates the larger phenomenon of apartheid justice, dramatizing  the larger contradictions and failures of policing as an institution.',
             location: {
-                center: [-87.61335, 41.82577],
-                zoom: 16.5,
+                center: [-87.61088, 41.82577],
+                zoom: 16.0,
                 pitch: 45,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Wells Homes',
+                    opacity: 1
+                }
+            ]
         },
         {
             id: 'Section19',
@@ -536,6 +536,10 @@ var config = {
                 {
                     layer: 'Cabrini-Green',
                     opacity: 1
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 0
                 }
             ],
             onChapterExit: [
@@ -554,7 +558,7 @@ var config = {
             description: 'There has been, however, one way in which the Plan has been transformative. Demolition and forced relocation have effectively disappeared people, places, and issues, shaping what we can see and what is rendered invisible. While other cities continue to use Chicago’s transformation as a blueprint, the city of Chicago  is yet to reckon with this history and its implications for the future.<br><br>', 
             credit: "Photo (c) Patricia Evans",
             location: {
-                center: [-87.62610, 41.80931],
+                center: [-87.62520, 41.82732],
                 zoom: 15.5,
                 pitch: 45,
                 bearing: 0
