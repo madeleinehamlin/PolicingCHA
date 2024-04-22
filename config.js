@@ -23,57 +23,6 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            onChapterEnter: [
-                {
-                    layer: 'Public Housing Complete',
-                    opacity: 0
-                },
-                {
-                    layer: 'Stateway Gardens',
-                    opacity: 0
-                },
-                {
-                    layer: 'Wells Homes',
-                    opacity: 0
-                },
-                {
-                    layer: 'Taylor Homes',
-                    opacity: 0
-                },
-                {
-                    layer: 'Cabrini-Green',
-                    opacity: 0
-                },
-                {
-                    layer: 'Trumbull Park',
-                    opacity: 0
-                },
-                {
-                    layer: 'Black Belt Polygon',
-                    opacity: 0
-                },
-                {
-                    layer: 'asian-random-dots-v1',
-                    opacity: 0
-                },
-                {
-                    layer: 'black-random-dots-v1',
-                    opacity: 0
-                },
-                {
-                    layer: 'hispanic-random-dots-v1',
-                    opacity: 0
-                },
-                {
-                    layer: 'white-random-dots-v1',
-                    opacity: 0
-                }
-           ],
-           onChapterExit: [
-                {
-                    
-                }
-           ]
         },
                 {
             id: 'Section2',
@@ -93,49 +42,38 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
                 {
-                    layer: 'Public Housing Complete',
-                    opacity: 0
-                },
-                {
-                    layer: 'Stateway Gardens',
-                    opacity: 0
-                },
-                {
-                    layer: 'Wells Homes',
-                    opacity: 0
-                },
-                {
-                    layer: 'Taylor Homes',
-                    opacity: 0
-                },
-                {
-                    layer: 'Cabrini-Green',
-                    opacity: 0
-                },
-                {
-                    layer: 'Trumbull Park',
-                    opacity: 0
-                },
-                {
                     layer: 'asian-dots',
-                    opacity: 1
+                    opacity: 0.70
                 },
                 {
                     layer: 'black-dots',
-                    opacity: 1
+                    opacity: 0.35
                 },
                 {
                     layer: 'hispanic-dots',
-                    opacity: 1
+                    opacity: 0.50
                 },
                 {
                     layer: 'white-dots',
-                    opacity: 1
+                    opacity: 0.60
                 }
            ],
            onChapterExit: [
                 {
-                    
+                    layer: 'asian-dots',
+                    opacity: 0
+                },
+                {
+                    layer: 'black-dots',
+                    opacity: 0
+                },
+                {
+                    layer: 'hispanic-dots',
+                    opacity: 0
+                },
+                {
+                    layer: 'white-dots',
+                    opacity: 0
                 }
            ]
         },
@@ -155,57 +93,6 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            onChapterEnter: [
-                {
-                    layer: 'Public Housing Complete',
-                    opacity: 0
-                },
-                {
-                    layer: 'Stateway Gardens',
-                    opacity: 0
-                },
-                {
-                    layer: 'Wells Homes',
-                    opacity: 0
-                },
-                {
-                    layer: 'Taylor Homes',
-                    opacity: 0
-                },
-                {
-                    layer: 'Cabrini-Green',
-                    opacity: 0
-                },
-                {
-                    layer: 'Trumbull Park',
-                    opacity: 0
-                },
-                {
-                    layer: 'Black Belt Polygon',
-                    opacity: 0
-                },
-                {
-                    layer: 'asian-random-dots-v1',
-                    opacity: 1
-                },
-                {
-                    layer: 'black-random-dots-v1',
-                    opacity: 1
-                },
-                {
-                    layer: 'hispanic-random-dots-v1',
-                    opacity: 1
-                },
-                {
-                    layer: 'white-random-dots-v1',
-                    opacity: 1
-                }
-           ],
-           onChapterExit: [
-                {
-                    
-                }
-           ]
         },
         {
             id: 'Section4',
@@ -225,15 +112,11 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
                 {
-                    layer: 'Public Housing Complete',
-                    opacity: 0
+                    layer: 'Black Belt Polygon',
+                    opacity: 0.46
                 },
                 {
                     layer: 'Stateway Gardens',
-                    opacity: 0
-                },
-                {
-                    layer: 'Wells Homes',
                     opacity: 0
                 },
                 {
@@ -241,37 +124,14 @@ var config = {
                     opacity: 0
                 },
                 {
-                    layer: 'Cabrini-Green',
+                    layer: 'Wells Homes',
                     opacity: 0
-                },
-                {
-                    layer: 'Trumbull Park',
-                    opacity: 0
-                },
-                {
-                    layer: 'Black Belt Polygon',
-                    opacity: 0.46
-                },
-                {
-                    layer: 'asian-random-dots-v1',
-                    opacity: 0
-                },
-                {
-                    layer: 'black-random-dots-v1',
-                    opacity: 0
-                },
-                {
-                    layer: 'hispanic-random-dots-v1',
-                    opacity: 0
-                },
-                {
-                    layer: 'white-random-dots-v1',
-                    opacity: 0
-                }
+                } 
            ],
            onChapterExit: [
                 {
-                    
+                    layer: 'Black Belt Polygon',
+                    opacity: 0
                 }
            ]         
         },
@@ -292,15 +152,21 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
                 {
-                    layer: 'Public Housing Complete',
-                    opacity: 0
+                    layer: 'Stateway Gardens',
+                    opacity: 1
                 },
                 {
-                    layer: 'Stateway Gardens',
-                    opacity: 0
+                    layer: 'Taylor Homes',
+                    opacity: 1
                 },
                 {
                     layer: 'Wells Homes',
+                    opacity: 1
+                } 
+           ],
+           onChapterExit: [
+                {
+                    layer: 'Stateway Gardens',
                     opacity: 0
                 },
                 {
@@ -308,19 +174,10 @@ var config = {
                     opacity: 0
                 },
                 {
-                    layer: 'Cabrini-Green',
+                    layer: 'Wells Homes',
                     opacity: 0
-                },
-                {
-                    layer: 'Trumbull Park',
-                    opacity: 0
-                }
-           ],
-           onChapterExit: [
-                {
-                    
-                }
-           ]
+                } 
+           ]   
         },
         {
             id: 'Section6',
@@ -339,35 +196,18 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
                 {
-                    layer: 'Public Housing Complete',
-                    opacity: 0
-                },
-                {
                     layer: 'Stateway Gardens',
-                    opacity: 0
-                },
-                {
-                    layer: 'Wells Homes',
-                    opacity: 0
+                    opacity: 1
                 },
                 {
                     layer: 'Taylor Homes',
-                    opacity: 0
+                    opacity: 1
                 },
                 {
-                    layer: 'Cabrini-Green',
-                    opacity: 0
-                },
-                {
-                    layer: 'Trumbull Park',
-                    opacity: 0
+                    layer: 'Wells Homes',
+                    opacity: 1
                 }
-           ],
-           onChapterExit: [
-                {
-                    
-                }
-           ]
+           ]   
         },
         {
             id: 'Section7',
@@ -386,15 +226,7 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
                 {
-                    layer: 'Public Housing Complete',
-                    opacity: 1
-                },
-                {
                     layer: 'Stateway Gardens',
-                    opacity: 1
-                },
-                {
-                    layer: 'Wells Homes',
                     opacity: 1
                 },
                 {
@@ -402,19 +234,9 @@ var config = {
                     opacity: 1
                 },
                 {
-                    layer: 'Cabrini-Green',
+                    layer: 'Wells Homes',
                     opacity: 1
-                },
-                {
-                    layer: 'Trumbull Park',
-                    opacity: 1
-                },
-                {
-                    layer: 'Black Belt Polygon',
-                    opacity: 0
                 }
-           ],
-           onChapterExit: [
            ]
         },
         {
@@ -434,12 +256,32 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
                 {
-                    layer: 'Black Belt Polygon',
-                    opacity: 0.46
+                    layer: 'Stateway Gardens',
+                    opacity: 1
+                },
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 1
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 1
                 }
-            ],
-            onChapterExit: [
-            ]
+           ],
+           onChapterExit: [
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                },
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 0
+                },
+                {
+                    layer: 'Wells Homes',
+                    opacity: 0
+                }
+           ]
         },
         {
             id: 'Section9',
@@ -459,7 +301,13 @@ var config = {
             rotateAnimation: false,
             onChapterEnter: [
                 {
-                    layer: 'Black Belt Polygon',
+                    layer: 'Trumbull Park',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Trumbull Park',
                     opacity: 0
                 }
             ]
@@ -477,6 +325,12 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Trumbull Park',
+                    opacity: 1
+                }
+            ]
         },
         {
             id: 'Section11',
@@ -494,6 +348,18 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'Section12',
@@ -510,6 +376,18 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'Section13',
@@ -526,6 +404,18 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'Section14',
@@ -542,6 +432,18 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Cabrini-Green',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Cabrini-Green',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'Section15',
@@ -573,11 +475,23 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Taylor Homes',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'Section17',
             title: 'IDA B. WELLS HOMES',
-            alignment: 'right-image',
+            alignment: 'right',
             hidden: false,
             image: 'images/image16.jpeg',
             description: 'As buildings gradually emptied out in the early 2000s, conditions were ripe for heightened police corruption and abuse. Although CHA transferred money to the police department for supplemental services (over $161 million between 2000 and 2012), police were allowed to operate with little oversight in an increasingly hollowed-out landscape, leaving the remaining residents vulnerable to corrupt officers such as former CPD Sergeant Ronald Watts. Between the late 1990s and 2012, Watts and his tactical team operated a protection racket, extorting a “tax” from drug dealers in the Ida B. Wells Homes and neighboring developments as the buildings were slowly demolished around them. Watts and his co-conspirators planted evidence and fabricated drug and gun charges, resulting in the wrongful incarceration of hundreds of public housing tenants. Finally, in 2012, Watts and his partner Kallat Mohammed were caught in an FBI sting and convicted on a single charge of stealing government property, for which they received sentences of 22 months and 18 months, respectively. To date, 183 Watts’ victims have been exonerated.',
@@ -589,6 +503,18 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Wells Homes',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Wells Homes',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'Section18',
@@ -620,6 +546,18 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Cabrini-Green',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Cabrini-Green',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'Section20',
@@ -637,6 +575,18 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Stateway Gardens',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'Section21',
