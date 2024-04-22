@@ -161,7 +161,7 @@ var config = {
             id: 'Section6',
             alignment: 'right',
             hidden: false,
-            image: 'images/Image5.jpeg',
+            image: 'images/image5.jpeg',
             description: 'Under conditions of rigid segregation, the Black Belt comprised a city-within-a-city that was at once a site of cultural and entrepreneurial vitality and a containment zone. Although Black workers were integral to the city’s economy, they were prevented from meaningful social or economic mixing with other groups. And most residents of the Black Belt were forced to live in poverty in decrepit, unsafe tenements where they were exposed to environmental toxins, disease, and rodent infestations.<br><br>',
             credit: "Image source: Library of Congress",
             location: {
@@ -264,7 +264,7 @@ var config = {
             title: 'TRUMBULL PARK HOMES',
             alignment: 'left',
             hidden: false,
-            image: 'images/Image8.jpg',
+            image: 'images/image8.jpg',
             description: 'When early developments—such as the Airport Homes and Trumbull Park Homes—began to integrate in the late 1940s and 1950s, race riots broke out. CHA called in the police to quell tensions, but they proved incapable of managing the hostilities. Even after 700 police officers were stationed for months at the Trumbull Park site, the first Black family to move in gave up and moved out. Although the police were ineffective at promoting integration, these events solidified the relationship between the CHA and the police. Going forward, police became the central tool for managing and controlling public housing residents.<br><br>',
             credit: "Image source: Chicago History Museum, ICHi-036817",
             location: {
