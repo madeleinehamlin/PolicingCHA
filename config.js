@@ -163,21 +163,7 @@ var config = {
                     layer: 'Wells Homes',
                     opacity: 1
                 } 
-           ],
-           onChapterExit: [
-                {
-                    layer: 'Stateway Gardens',
-                    opacity: 0
-                },
-                {
-                    layer: 'Taylor Homes',
-                    opacity: 0
-                },
-                {
-                    layer: 'Wells Homes',
-                    opacity: 0
-                } 
-           ]   
+           ]
         },
         {
             id: 'Section6',
@@ -304,12 +290,6 @@ var config = {
                     layer: 'Trumbull Park',
                     opacity: 1
                 }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'Trumbull Park',
-                    opacity: 0
-                }
             ]
         },
         {
@@ -329,6 +309,12 @@ var config = {
                 {
                     layer: 'Trumbull Park',
                     opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Trumbull Park',
+                    opacity: 0
                 }
             ]
         },
