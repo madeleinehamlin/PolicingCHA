@@ -31,7 +31,7 @@ var config = {
             hidden: false,
             legend: '',
             description: 'Chicago is one of the most racially segregated cities in the country. This is not an accident, nor is it the result of individual preferences.<br><ul><li>Asian</li><li>Black</li><li>Hispanic</li><li>White</li></ul><style>li:nth-child(1) {color: #F32B2B;font-size: 1.2em;}li:nth-child(2) {color: #2B9419;font-size: 1.2em;}li:nth-child(3) {color: #F4AC26;font-size: 1.2em;}li:nth-child(4) {color: #1675EF; font-size: 1.2em;}li span {color: black;}li::marker {font-size: 2em; font-weight: bold;}</style>',
-            credit: 'Map made by Madeleine Hamlin and Maheen Khan using data from the 2020 U.S. Census',
+            credit: 'Map made by Madeleine Hamlin, Garrett Kalter, and Maheen Khan using data from the 2020 U.S. Census',
             location: {
                 center: [-87.49296, 41.82967],
                 zoom: 9.6,
@@ -580,7 +580,7 @@ var config = {
             id: 'Section21',
             alignment: 'center',
             hidden: false,
-            description: 'This storymap is the product of a collaboration between Madeleine Hamlin, PhD, and the Invisible Institute. It was produced by Madeleine Hamlin and Jamie Kalven, with mapping and technical support from Tingkuan Hsieh, Maheen Khan, Sophie Schadler, and Sophie Thompson. Thanks to Patricia Evans for the use of her photographs. Funding support for this project was provided by the Colgate University Public Affairs and Policy Research Initiative. For questions, please contact mhamlin [at] colgate.edu. Copyright 2024.', 
+            description: 'This storymap is the product of a collaboration between Madeleine Hamlin, PhD, and the Invisible Institute. It was produced by Madeleine Hamlin and Jamie Kalven, with mapping and technical support from Tingkuan Hsieh, Garrett Kalter, Maheen Khan, Sophie Schadler, and Sophie Thompson. Thanks to Patricia Evans for the use of her photographs. Funding support for this project was provided by the Colgate University Public Affairs and Policy Research Initiative. For questions, please contact mhamlin [at] colgate.edu. Copyright 2024.', 
             location: {
                 center: [-87.63726, 41.88938],
                 zoom: 12,
