@@ -7,7 +7,7 @@ var config = {
     theme: 'light',
     use3dTerrain: false,
     auto: false,
-    title: 'POLICING CHICAGO PUBLIC HOUSING DRAFT',
+    title: 'POLICING CHICAGO PUBLIC HOUSING',
     footer: 'Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
